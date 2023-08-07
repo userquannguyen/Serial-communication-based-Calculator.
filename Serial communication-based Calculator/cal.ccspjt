@@ -1,0 +1,167 @@
+[PROJECT]
+Target=cal.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=cal.c
+[Directories]
+Include=
+[E:\PICC\BTL\cal]
+Type=4
+[mru-list]
+1=cal.c
+
+[ProjectLog]
+Days=10
+D1=20-11-2021
+D1_L=6
+D1_L1=[83442]Project Opened.
+D1_L2=[83655]Started Editing.
+D1_L3=[84178]Stopped Editing.
+D1_L4=[84435]Started Editing.
+D1_L5=[84940]Stopped Editing.
+TotalEdit=282
+TotalDebug=0
+D1_E=13
+D1_D=0
+D1_L6=[84940]Project Closed.
+D2=21-11-2021
+D2_L=24
+D2_L1=[46259]Project Opened.
+D2_L2=[46367]Started Editing.
+D2_L3=[46683]Stopped Editing.
+D2_E=33
+D2_D=0
+D2_L4=[46692]Project Closed.
+D2_L5=[48473]Project Opened.
+D2_L6=[48529]Started Editing.
+D2_L7=[48960]Project Opened.
+D2_L8=[53618]Project Closed.
+D2_L9=[77011]Project Opened.
+D2_L10=[77016]Project Closed.
+D2_L11=[77016]Project Opened.
+D2_L12=[77382]Started Editing.
+D2_L13=[77779]Stopped Editing.
+D2_L14=[78923]Started Editing.
+D2_L15=[79332]Stopped Editing.
+D2_L16=[79406]Started Editing.
+D2_L17=[80867]Stopped Editing.
+D2_L18=[80871]Started Editing.
+D2_L19=[80939]Stopped Editing.
+D2_L20=[80939]Project Closed.
+D2_L21=[81553]Project Opened.
+D2_L22=[81826]Started Editing.
+D2_L23=[82553]Stopped Editing.
+D2_L24=[83348]Project Closed.
+D3=24-11-2021
+D3_L=2
+D3_L1=[62241]Project Opened.
+D3_L2=[62457]Project Closed.
+D4=26-11-2021
+D4_L=12
+D4_L1=[76231]Project Opened.
+D4_L2=[76269]Started Editing.
+D4_L3=[76291]Stopped Editing.
+D4_E=52
+D4_D=0
+D4_L4=[76291]Project Closed.
+D4_L5=[78352]Project Opened.
+D4_L6=[78547]Started Editing.
+D4_L7=[81220]Stopped Editing.
+D4_L8=[81220]Project Closed.
+D4_L9=[82024]Project Opened.
+D4_L10=[82752]Started Editing.
+D4_L11=[83081]Stopped Editing.
+D4_L12=[83081]Project Closed.
+D5=27-11-2021
+D5_L=26
+D5_L1=[60542]Project Opened.
+D5_L2=[61733]Project Closed.
+D5_L3=[71574]Project Opened.
+D5_L4=[71823]Project Closed.
+D5_L5=[72645]Project Opened.
+D5_L6=[72760]Started Editing.
+D5_L7=[73188]Stopped Editing.
+D5_L8=[73428]Started Editing.
+D5_L9=[73887]Stopped Editing.
+D5_E=101
+D5_D=0
+D5_L10=[74141]Project Closed.
+D5_L11=[74149]Project Opened.
+D5_L12=[74195]Started Editing.
+D5_L13=[75007]Stopped Editing.
+D5_L14=[75080]Started Editing.
+D5_L15=[75133]Stopped Editing.
+D5_L16=[75133]Project Closed.
+D5_L17=[76826]Project Opened.
+D5_L18=[76956]Started Editing.
+D5_L19=[78413]Stopped Editing.
+D5_L20=[78842]Started Editing.
+D5_L21=[82171]Stopped Editing.
+D5_L22=[82171]Project Closed.
+D5_L23=[82482]Project Opened.
+D5_L24=[82535]Started Editing.
+D5_L25=[83153]Stopped Editing.
+D5_L26=[83153]Project Closed.
+D6=28-11-2021
+D6_L=10
+D6_L1=[54173]Project Opened.
+D6_L2=[54521]Project Closed.
+D6_L3=[55876]Project Opened.
+D6_L4=[55944]Started Editing.
+D6_L5=[56853]Stopped Editing.
+D6_E=81
+D6_D=0
+D6_L6=[56853]Project Closed.
+D6_L7=[70762]Project Opened.
+D6_L8=[71526]Started Editing.
+D6_L9=[75407]Stopped Editing.
+D6_L10=[75407]Project Closed.
+D7=29-11-2021
+D7_L=8
+D7_L1=[22]Project Opened.
+D7_L2=[34]Started Editing.
+D7_L3=[63]Stopped Editing.
+D7_E=2
+D7_D=0
+D7_L4=[63]Project Closed.
+D7_L5=[36025]Project Opened.
+D7_L6=[36043]Started Editing.
+D7_L7=[36374]Stopped Editing.
+D7_L8=[36711]Project Closed.
+D8=13-12-2021
+D8_L=2
+D8_L1=[71410]Project Opened.
+D8_L2=[71436]Project Closed.
+D9=20-12-2021
+D9_L=4
+D9_L1=[74123]Project Opened.
+D9_L2=[74603]Project Closed.
+D9_L3=[74649]Project Opened.
+D9_L4=[74745]Project Closed.
+D10=28-06-2022
+D10_L=4
+D10_L1=[82479]Project Opened.
+D10_L2=[82508]Project Closed.
+D10_L3=[82537]Project Opened.
+D10_L4=[82602]Project Closed.
+
+[ExtraIncludes]
+Count=3
+1=cal=e:\picc\btl\mienphuc.c
+2=cal=e:\picc\btl\mienthuc.c
+3=cal=e:\picc\btl\hang.c
+
+[Opened Files]
+1=cal.c
+2=
+3=mienphuc.c
+4=hang.c
+5=
+[cal.c]
+Type=4
+[Units]
+Count=1
+1=cal (main)

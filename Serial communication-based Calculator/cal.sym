@@ -1,0 +1,324 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020-021 strtok.save
+022     @TRIS_C
+023     MAIN.tt
+023-026 atan2.y
+024     thuchien.mien
+025     mienthuc.cn1
+025     hang.cn
+025     @delay_ms5.P1
+025-028 mienphuc.a
+026-029 mienthuc.a
+027-02A atan2.x
+029-02C mienphuc.b
+02A-02D mienthuc.b
+02B-02E atan2.z
+02D-030 mienphuc.a1
+02E-031 mienthuc.c
+02F.0   atan2.sign
+030     atan2.quad
+031-034 mienphuc.a2
+032-035 mienthuc.a1
+035-038 mienphuc.b1
+036-039 mienthuc.b1
+039-03C mienphuc.b2
+03A-03D mienthuc.c1
+03D     mienphuc.cn1
+03E-041 mienthuc.x
+03E-041 mienphuc.x
+042     mienthuc.kt
+042-045 mienphuc.c
+043     mienthuc.i
+044     @DIV88.P1
+044-047 power.a
+044-047 @DIVS3232.P1
+044     mienthuc.@SCRATCH1
+045     @DIV88.P1
+045     mienthuc.@SCRATCH2
+046-049 mienphuc.d
+046     mienthuc.@SCRATCH3
+046     @DIV88.@SCRATCH1
+047     mienthuc.@SCRATCH4
+048-04B power.b
+048-04B @DIVS3232.P1
+04A-04D mienphuc.x
+04C-04F power.result
+04C     @DIVS3232.@SCRATCH1
+04D     @DIVS3232.@SCRATCH2
+04E-051 @PRINTF_L32D_9600_62_63FPFPF.P1
+04E     nhap_so.n
+04E     @DIVS3232.@SCRATCH3
+04E     mienphuc.@SCRATCH1
+04F     nhap_so.k
+04F     @DIVS3232.@SCRATCH4
+04F     mienphuc.@SCRATCH2
+050     power.i
+050-053 nhap_so.t
+050     @DIVS3232.@SCRATCH5
+050     mienphuc.@SCRATCH3
+051     @DIVS3232.@SCRATCH6
+051     mienphuc.@SCRATCH4
+052-055 @SDTOF.P1
+052-055 biendo.a
+052     @PRINTF_L32D_9600_62_63FPFPF.P1
+052     mienphuc.@SCRATCH5
+053     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH1
+053     mienphuc.@SCRATCH6
+054     nhap_so.i
+054     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH2
+054     mienphuc.@SCRATCH7
+055     @PSTRINGC7_9600_62_63.@SCRATCH1
+055     nhap_so.@SCRATCH1
+055     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH3
+055     mienphuc.@SCRATCH8
+056-059 @PRINTF_L32D_9600_62_63.P1
+056     @PSTRINGCN7_9600_62_63.P2
+056-059 biendo.b
+056     @PSTRINGC7_9600_62_63.@SCRATCH2
+056     nhap_so.@SCRATCH2
+056     @SDTOF.@SCRATCH1
+056     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH4
+057     @PSTRINGC7_9600_62_63.@SCRATCH3
+057     nhap_so.@SCRATCH3
+057     @PSTRINGCN7_9600_62_63.@SCRATCH1
+057     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH5
+058     @PSTRINGC7_9600_62_63.@SCRATCH4
+058     nhap_so.@SCRATCH4
+058     @PSTRINGCN7_9600_62_63.@SCRATCH2
+058     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH6
+059     @PSTRINGCN7_9600_62_63.@SCRATCH3
+059     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH7
+05A-05D biendo.x
+05A     @PSTRINGCN7_9600_62_63.@SCRATCH4
+05A     @PRINTF_L32D_9600_62_63.@SCRATCH1
+05A     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH8
+05B-05E @MULFF.P1
+05B-05E @FTOSD.P2
+05B     @PRINTF_L32D_9600_62_63.@SCRATCH2
+05C     @PRINTF_L32D_9600_62_63.@SCRATCH3
+05D     @PRINTF_L32D_9600_62_63.@SCRATCH4
+05E-061 @DTOF.P1
+05E     @PRINTF_L32D_9600_62_63.@SCRATCH5
+05E     biendo.@SCRATCH1
+05F-062 @MULFF.P1
+05F     @PRINTF_L32D_9600_62_63.@SCRATCH6
+05F     @FTOSD.@SCRATCH1
+05F     biendo.@SCRATCH2
+060     @PRINTF_L32D_9600_62_63.@SCRATCH7
+060     biendo.@SCRATCH3
+061     @PRINTF_L32D_9600_62_63.@SCRATCH8
+061     biendo.@SCRATCH4
+062-065 @MUL3232.P1
+062-065 @DIV3232.P2
+062-065 sqrt.x
+063     @MULFF.@SCRATCH1
+064     @MULFF.@SCRATCH2
+065     @MULFF.@SCRATCH3
+066-069 @DIV3232.P1
+066-069 sqrt.y
+066-069 @MUL3232.P1
+066     @MULFF.@SCRATCH4
+067     @MULFF.@SCRATCH5
+06A-06D sqrt.res
+06A     @MUL3232.@SCRATCH1
+06A     @DIV3232.@SCRATCH1
+06B     @MUL3232.@SCRATCH2
+06B     @DIV3232.@SCRATCH2
+06C     @MUL3232.@SCRATCH3
+06C     @DIV3232.@SCRATCH3
+06D     @MUL3232.@SCRATCH4
+06D     @DIV3232.@SCRATCH4
+06E-06F sqrt.p
+06E     @MUL3232.@SCRATCH5
+06E     @DIV3232.@SCRATCH5
+070-073 @DIVFF.P1
+070-073 @ADDFF.P2
+070-073 @FLT.P3
+070     sqrt.@SCRATCH1
+071     sqrt.@SCRATCH2
+072     sqrt.@SCRATCH3
+073     sqrt.@SCRATCH4
+074     @FLT.@SCRATCH1
+075     @FLT.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B-07E @DIVFF.P1
+07B-07E @FLT.P2
+07B-07E @ADDFF.P3
+09C.6   C1OUT
+09C.7   C2OUT
+0A0     @ADDFF.@SCRATCH1
+0A0     @DIVFF.@SCRATCH1
+0A1     @ADDFF.@SCRATCH2
+0A1     @DIVFF.@SCRATCH2
+0A2     @ADDFF.@SCRATCH3
+0A2     @DIVFF.@SCRATCH3
+0A3     @ADDFF.@SCRATCH4
+0A3     @DIVFF.@SCRATCH4
+0A4     @ADDFF.@SCRATCH5
+0A4     @DIVFF.@SCRATCH5
+0A5     @ADDFF.@SCRATCH6
+0A5     @DIVFF.@SCRATCH6
+0A6     @ADDFF.@SCRATCH7
+0A7     @ADDFF.@SCRATCH8
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const874.call
+00000A  @const886.call
+00001A  @const888.call
+00002B  @const889.call
+00003F  @const890.call
+00004E  @const891.call
+00005D  @const892.call
+00006F  @const901.call
+000079  @const902.call
+00007E  @const903.call
+000083  @const904.call
+00008C  @const906.call
+000098  @const915.call
+0000A4  @const917.call
+0000B0  @const921.call
+0000BC  @const927.call
+0000CC  @const928.call
+0000D1  @const929.call
+0000D6  @const930.call
+0000DB  @const931.call
+0000DF  @const932.call
+0000E5  @const933.call
+0000EA  @const934.call
+0000EF  @const936.call
+0000F6  @const937.call
+0000FB  @const938.call
+000101  @const939.call
+000107  @const941.call
+000112  @const942.call
+000117  @const943.call
+000124  @const951.call
+000131  @const952.call
+00013A  @const953.call
+000147  @const967.call
+000158  @const968.call
+000166  @const969.call
+000176  @const977.call
+000180  @const978.call
+000185  @const979.call
+00018A  @const980.call
+000194  @const981.call
+000199  @const982.call
+00019E  @const983.call
+0001A7  @const985.call
+0001B4  @const987.call
+0001C1  @const989.call
+0001CE  @const994.call
+0001D9  @const996.call
+0001E3  @const997.call
+0001E8  @const998.call
+0001ED  @const1000.call
+0001F4  @const1001.call
+0001FE  @const1002.call
+000203  @const1003.call
+000208  @const1004.call
+000215  @const1005.call
+00021F  @const1013.call
+00022A  @const1014.call
+000237  @const1015.call
+000246  @const1016.call
+000250  @const1017.call
+00025C  @const1019.call
+000263  @const1020.call
+000272  @const1021.call
+000284  @const1022.call
+000290  @const1023.call
+00029D  @const1031.call
+0002AA  @const1032.call
+0002B7  @const1033.call
+0002C3  @const1039.call
+0002CE  @const1040.call
+0002DC  @const1042.call
+0002E4  @const1043.call
+0002E9  @PSTRINGC7_9600_62_63
+000341  @delay_ms5
+000355  loiSyntax
+000367  @MUL3232
+000391  nhap_so
+00043F  @PSTRINGCN7_9600_62_63
+000498  @DIV3232
+0004E7  @PRINTF_L32D_9600_62_63
+000568  @SDTOF
+000596  @DIVFF
+00066F  @MULFF
+0006E4  @PRINTF_L32D_9600_62_63FPFPF
+00070B  @FTOSD
+000800  @ADDFF
+000943  @FLT
+000982  biendo
+0009C6  @DTOF
+0009F0  sqrt
+000A90  mienphuc
+000F59  @goto11921
+000F63  MAIN
+000F63  @cinit1
+000F8F  @cinit2
+001000  chonmien
+001000  thuchien
+001042  hang
+0010F1  mienthuc
+0014D5  power
+00164C  @DIVS3232
+0016D8  @DIV88
+0391  nhapso
+
+Project Directory:
+    E:\PICC\BTL\
+
+Project Files:
+    cal.c                                                   [27-Nov-21 21:35  CRC=9BCE44C5]
+    cal.h                                                   [20-Nov-21 23:10  CRC=CF12E969]
+    ..\PICC\Devices\16F877A.h                               [18-Apr-14 16:56  CRC=4F277C97]
+    ..\PICC\Drivers\stdio.h                                 [31-Jul-07 13:24  CRC=4E4534F4]
+    ..\PICC\Drivers\string.h                                [10-Apr-14 09:04  CRC=662B2714]
+    ..\PICC\Drivers\stddef.h                                [16-Jul-10 09:27  CRC=897CEC6C]
+    ..\PICC\Drivers\ctype.h                                 [03-Jan-08 13:55  CRC=2D1F019F]
+    ..\PICC\Drivers\math.h                                  [28-Sep-12 11:35  CRC=546412C9]
+    mienthuc.c                                              [29-Nov-21 00:00  CRC=AA4202C9]
+    mienphuc.c                                              [29-Nov-21 10:01  CRC=5C43EFCD]
+    hang.c                                                  [29-Nov-21 10:01  CRC=F725FBB4]
+
+Source signature=6E4AF19F
+
+Units:
+    cal (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   cal.xsym
+    Errors:      cal.err
+    Ext Symbols: cal.esym
+    INHX8:       cal.hex
+    Symbols:     cal.sym
+    List:        cal.lst
+    Debug/COFF:  cal.cof
+    Project:     cal.ccspjt
+    Call Tree:   cal.tre
+    Statistics:  cal.STA
